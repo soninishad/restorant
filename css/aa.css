@@ -1,0 +1,170 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ------------------------PC----------------- */
+@media (min-width:1300px) {
+    .slider_content {
+        text-align: center;
+        /* padding-bottom: 200px; */
+        margin-bottom: 160px;
+    }
+
+
+    .btn {
+        padding: 8px;
+        color: white;
+        border: 5px solid white;
+    }
+
+    .btn:hover {
+        background-color: #bc8d4b;
+        border: 5px solid #bc8d4b;
+    }
+
+    .heading {
+        font-weight: bold;
+    }
+
+    .headings {
+        font-weight: bold;
+        font-size: 3rem;
+        text-decoration: double;
+        text-decoration: underline;
+        margin: 1rem 0rem 1.6rem 0rem;
+    }
+
+
+    .section {
+        background-color: #f4f4f4;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        /* flex-wrap: wrap; */
+    }
+
+    .child {
+        /* border: 2px solid red; */
+        height: auto;
+        margin: 50px 0px 50px 0px;
+        /* background-color: #bc8d4b; */
+    }
+
+    .child1 {
+        margin-left: 150px;
+    }
+
+    .child2 {
+        margin-right: 150px;
+    }
+
+
+
+
+
+    /* ----------------------- ABOUT SECTION --------------------- */
+
+    .section_about {
+        display: flex;
+        justify-content: center;
+        height: auto;
+        /* padding: 50px; */
+    }
+
+    .about_inner {
+        height: 25rem;
+        width: 100%;
+        margin: 5rem 0rem 3rem 5rem;
+    }
+
+
+    .about_image {
+        height: 24rem;
+        width: 18rem;
+        position: absolute;
+    }
+
+    .about_image2 {
+        height: 20rem;
+        width: 28rem;
+        /* border: 5px solid rgb(244, 105, 54); */
+        padding: 3px;
+    }
+
+
+
+    .buttons {
+        padding: 0.5rem;
+        border: 0.2rem solid black;
+        margin-top: 1rem;
+
+    }
+
+
+    /* ------------ */
+
+
+    /* ------home widge */
+
+    .home_widge {
+        background-image: url(../images/bg.jpg);
+        height: 26rem;
+        margin-bottom: 4rem;
+        width: 100%;
+        z-index: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        /* background: transparent; */
+        /* position: relative;
+        display: flex; */
+        /* background-position: center; */
+
+    }
+
+
+    .layer {
+        /* position: absolute; */
+        /* background-color: gray; */
+        /* opacity: 0.6; */
+        font-size: large;
+        background-color: red;
+        background: transparent;
+        font-size: 3rem;
+        letter-spacing: 5px;
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-weight: 800;
+    }
+
+
+
+
+    /* ---------footer--------- */
+
+
+    .footer {
+        height: auto;
+        background-color: black;
+        display: flex;
+        width: 100%;
+        padding: 1rem;
+        justify-content: space-around;
+        color: #ffffff;
+    }
+
+    .copyright {
+        text-align: center;
+        /* margin: 0.6rem; */
+        padding: 0.6rem;
+        background-color: #000000;
+        color: white;
+    }
+
+
+}
